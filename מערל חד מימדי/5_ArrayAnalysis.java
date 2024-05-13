@@ -5,7 +5,7 @@
 
  */
 
-public class ArrayAnalysis {
+public class 5_ArrayAnalysis {
     public static void main(String[] args) {
         int[] numbers = {5, 3, 5, 2, 8, 8, 1, 8}; // דוגמא למערך של מספרים
 
