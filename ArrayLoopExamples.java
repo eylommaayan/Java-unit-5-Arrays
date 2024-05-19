@@ -22,20 +22,25 @@ public class ArrayLoopExamples {
 
         // Example 4: Double the elements of an integer array
         int[] values = {3, 5, 7, 9, 11};
-        for (int i = 0; i < values.length; i++) {
-            values[i] *= 2; // Doubling each element
-        }
-
+        // TODO: Use a for loop to double each element in the values array
 
         // Example 5: Capitalize the elements of a string array
         String[] colors = {"red", "green", "blue"};
-        for (int i = 0; i < colors.length; i++) {
-            colors[i] = colors[i].toUpperCase(); // Capitalizing each element
-        }
+        // TODO: Use a for loop to capitalize each element in the colors array
 
         // Example 6: Find the index of a specific value in an integer array
         int[] data = {4, 7, 4, 1, 4, 9, 4};
         int targetValue = 4;
         // TODO: Use a for loop to find the index of targetValue in the data array
+
+        int index = -1; // Initialize index to -1 to indicate that the targetValue is not found
+
+// Using a for loop to find the index of the targetValue in the data array
+for (int i = 0; i < data.length; i++) {
+    if (data[i] == targetValue) {
+        index = i;  // Set index to the current position
+        break;      // Exit the loop once the first match is found
+    }
+}
     }
 }
